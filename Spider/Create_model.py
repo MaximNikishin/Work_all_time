@@ -85,7 +85,7 @@ def tnConv2D ():
 
 def creation (model):
     if (model == NULL):
-        model = model
+        model = model.Sequential()
         
     # taking the input (relise it)
     
@@ -111,6 +111,13 @@ def creation (model):
         model = creation(model)
     else:
         return model
+
+
+# In[9]:
+
+
+def Create_result(model):
+    model.summary()
 
 
 # In[ ]:
