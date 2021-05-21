@@ -10,3 +10,8 @@ To work with our programm you need some libruaries such as:
 numpy
 tensorflow
 matplotlib
+
+The app is built using cx_freeze
+(OS version: Ubuntu 18.04, Python version: 3.8.5, cx_freeze version: 6.0-6.4(?))
+
+
