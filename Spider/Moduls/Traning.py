@@ -4,26 +4,10 @@
 # In[1]:
 
 
-import tensorflow as tf
 
-
-# In[2]:
-
-
-from tensorflow.keras import datasets, layers, models
-
-
-# In[3]:
-
-
-import sys
 
 
 # In[4]:
-
-
-import numpy as np
-import matplotlib.pyplot as plt
 
 
 # In[5]:
