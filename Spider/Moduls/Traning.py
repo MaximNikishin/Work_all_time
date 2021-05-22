@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 def Traning (model = Create_Model(tFashion = True), 
              Data = False, 
              Train = False, Adam = False, Adagrad = False, Adadelta = False, SGD = False,
-             MSE = False, MAE = False, SCC = False,
+             Loss = False, MSE = False, MAE = False, SCC = False,
              Fit = False, count = 10):
     if (Data == True):
         our_mnist = Taking_Dataset()
