@@ -25,3 +25,6 @@ It returns fit model and history of fitting.
 
 Programm Load_Data() contains function Taking_Dataset(), 
 that returns numpy's dataset.
+
+Programm Analise.py contains major function Analise(), 
+that helps you to draw mathplotlib grafics, statistics of fitting and result work of net.
