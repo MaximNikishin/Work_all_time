@@ -19,11 +19,10 @@ def Traning (model = Create_Model(tFashion = True),
              Loss = False, MSE = False, MAE = False, SCC = False,
              Fit = False, count = 10):
     if (Data == True):
-        our_mnist = Taking_Dataset()
+        (train_images, train_labels), (test_images, test_labels) = Taking_Dataset()
     else:
-        our_mnist = our_mnist = tf.keras.datasets.fashion_mnist
+        (train_images, train_labels), (test_images, test_labels) = tf.keras.datasets.fashion_mnist.load_data()
         
-    (train_images, train_labels), (test_images, test_labels) = our_mnist.load_data()
     
     train_images = train_images / 255.0
     test_images = test_images / 255.0
