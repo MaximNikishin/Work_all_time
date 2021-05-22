@@ -101,7 +101,7 @@ def Create_result(model):
     model.summary()
 
 
-def Traning (model = Create_Model(tFashion = True), 
+def Training (model = Create_Model(tFashion = True), 
              Data = False, tconv = False, tfashion = False, other = False, 
              Train = False, Adam = False, Adagrad = False, Adadelta = False, SGD = False,
              Loss = False, MSE = False, MAE = False, SCC = False,
@@ -241,7 +241,7 @@ def Images_Stat (i_range, test_images, test_labels, model):
 # In[10]:
 
 
-def Analise(model, history, test_images, test_labels,
+def Analyse(model, history, test_images, test_labels,
            Images = False, i_range = range(0, 5), 
            AcLo = False, Graf_Ac = False):
     
@@ -317,7 +317,7 @@ if f_ep:
 else:
     Fit = False
 
-result = Traning(model, 
+result = Training(model, 
              Data, tconv, tfashion, other,
              Train, Adam, Adagrad, Adadelta, SGD,
              Loss, MSE, MAE, SCC,
@@ -359,7 +359,7 @@ else:
 
 test_images = test_images / 255.0
         
-Analise(result[0], result[1], test_images, test_labels,
+Analyse(result[0], result[1], test_images, test_labels,
            Images, i_range, 
            AcLo, Graf_Ac)
 
