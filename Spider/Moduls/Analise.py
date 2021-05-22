@@ -1,27 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-import tensorflow as tf
-
-
-# In[2]:
-
-
-from tensorflow.keras import datasets, layers, models
-
-
-# In[3]:
-
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-
-# In[4]:
-
 
 def Graf_Accur_Epoch (history):
     plt.plot(history.history['accuracy'], label='accuracy')
