@@ -13,37 +13,27 @@ import tensorflow as tf
 from tensorflow.keras import datasets, layers, models
 
 
-# In[4]:
+# In[3]:
 
 
 import sys
 
 
-# In[5]:
+# In[4]:
 
 
 import numpy as np
 import matplotlib.pyplot as plt
 
 
-# In[7]:
+# In[5]:
 
 
-#Taking_Dataset must be raelise (it returns numpy dataset)
-
-our_mnist = Taking_Dataset()
-
-
-# In[8]:
-
-
-(train_images, train_labels), (test_images, test_labels) = our_mnist.load_data()
-
-
-# In[1]:
-
-
-def Traning (model = Create_Model(tFashion = True), Data = False, Train = False, Fit = False):
+def Traning (model = Create_Model(tFashion = True), 
+             Data = False, 
+             Train = False, Adam = False, Adagrad = False, Adadelta = False, SGD = False,
+             MSE = False, MAE = False, SCC = False,
+             Fit = False, count = 10):
     if (Data == True):
         our_mnist = Taking_Dataset()
     else:
