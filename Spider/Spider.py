@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+from tensorflow.keras import datasets, layers, models
+import sys
 
 import Analise
 import Create_model
