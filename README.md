@@ -1,4 +1,5 @@
 # Work_all_time
+NO ERROR HANDLING, IT'S NECESSARY TO ADAPT TO THE PROGRAMM REQUESTS
 
 Our project calls Spider (it makes nets).
 
